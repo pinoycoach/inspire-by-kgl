@@ -6,7 +6,7 @@ import { WIDGET_URI, WIDGET_HTML } from "./widget.js";
 const SHOP_URL = process.env.SHOP_URL || "https://keepgivelive.com";
 const MIME = "text/html;profile=mcp-app";
 
-const INSTRUCTIONS = `Inspire by KGL is a small, verified library of lines. Use only lines returned by these tools; never invent, paraphrase or attribute a quote yourself. Show a line with its source. To show a card, call get_daily_line or find_lines first, then show_card with the line id. Speak plainly and quietly: no hype, no "manifest", no "lucky" or "your color". Shades are offered as a choice, never assigned. Everything here is free; nothing digital is sold.`;
+const INSTRUCTIONS = `Inspire by KGL is a small, verified library of lines. Use only lines returned by these tools; never invent, paraphrase or attribute a quote yourself. Show a line with its source. To show a card, call get_daily_line or find_lines first, then show_card with the line id. Speak plainly and quietly: no hype, no "manifest", no "lucky" or "your color". Shades are offered as a choice, never assigned. After show_card, the card is already on screen: do not redraw, restyle or repeat it; add at most one short sentence. Everything here is free; nothing digital is sold.`;
 
 const lineSchema = z.object({
   id: z.string(),
@@ -42,7 +42,12 @@ export function createServer(): McpServer {
                 resourceDomains: ["https://fonts.googleapis.com", "https://fonts.gstatic.com"],
               },
             },
-            "openai/widgetDescription": "A single line from the Inspire library, set on a card with its source.",
+            "openai/widgetDescription": "A single line from the Inspire library, set on a card with its source. The card is shown to the user; do not repeat it.",
+            "openai/widgetPrefersBorder": false,
+            "openai/widgetCSP": {
+              connect_domains: [],
+              resource_domains: ["https://fonts.googleapis.com", "https://fonts.gstatic.com"],
+            },
           },
         },
       ],
@@ -120,7 +125,7 @@ export function createServer(): McpServer {
       const s = { id, ...SHADES[id] };
       return {
         structuredContent: { line, shade: s, shopUrl: SHOP_URL },
-        content: [{ type: "text", text: `Card: "${line.text}" — ${line.source}, in ${s.name}.` }],
+        content: [{ type: "text", text: `The card for "${line.text}" (${line.source}, ${s.name}) is now displayed to the user. Do not redraw or repeat it; reply with one short sentence at most.` }],
       };
     },
   );

@@ -1,7 +1,7 @@
 // The Inspire card, rendered inside ChatGPT (MCP Apps / window.openai).
 // House look: Paper field, Ink type, one of the five shades as a quiet band.
 
-export const WIDGET_URI = "ui://inspire/card-v1.html";
+export const WIDGET_URI = "ui://inspire/card-v2.html";
 
 export const WIDGET_HTML = /* html */ `<!doctype html>
 <html lang="en">
