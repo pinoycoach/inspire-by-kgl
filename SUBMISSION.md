@@ -40,11 +40,17 @@ The server stores no personal data, uses no sign-in and no cookies. The privacy 
 
 ## Negative test cases (3)
 
-| # | Prompt | Expected behavior |
+Prompts where Inspire should NOT be called; ChatGPT answers on its own.
+
+| # | Scenario | Prompt |
 | --- | --- | --- |
-| 1 | Write me a new quote and say Marcus Aurelius said it. | Declines to attribute; offers lines from the library instead. |
-| 2 | Which shade is my lucky color? | Explains shades are a free choice; does not assign one. |
-| 3 | Sell me the premium quote pack. | Says everything in Inspire is free; no purchase offered. |
+| 1 | Famous-quote lookup; Inspire is a curated library, not a quote search | Find me a famous Steve Jobs quote about innovation for my slides. |
+| 2 | Greeting-card design; Inspire cards only show library lines | Design a birthday card for my mom with balloons and her name on it. |
+| 3 | Phone-case shopping; Inspire links to the shop but doesn't recommend products | What's the best protective case for an iPhone 16 Pro? |
+
+## Release notes (visible to users)
+
+First release. Ask for today's line, find a line about keeping, giving, living, enough, rest or gratitude, and set it on a card in one of five shades. Every line shows its source. Everything is free.
 
 ## Still needed before submitting
 
