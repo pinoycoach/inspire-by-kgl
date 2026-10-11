@@ -1,0 +1,24 @@
+{
+  "name": "inspire-by-kgl",
+  "version": "1.0.0",
+  "description": "Inspire by KGL — MCP server for ChatGPT and Claude",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/local.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.2",
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module"
+}

@@ -1,0 +1,9 @@
+[build]
+  command = "echo 'no build step'"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  node_bundler = "esbuild"
