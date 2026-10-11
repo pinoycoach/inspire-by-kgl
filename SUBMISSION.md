@@ -10,7 +10,7 @@ Status: DRAFT. Cash approves every word below before it is submitted.
 - **Developer name:** JoinThePOD LLC
 - **Long description (draft):**
   Inspire is a small library of lines worth keeping. Each one carries its source, so you always know where it came from.
-  Keep it, give it to someone, or open the Keep. Give. Live. shop to see printed pieces.
+  Ask for today's line, find one about giving, rest or enough, and set it on a card in one of five quiet shades. Keep it, give it to someone, or open the Keep. Give. Live. shop to see printed pieces.
   Nothing is invented: if a line isn't in the library, Inspire says so.
 - **Starter prompts (≤128 each):**
   1. Give me today's line.
