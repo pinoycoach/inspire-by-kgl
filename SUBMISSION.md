@@ -52,5 +52,5 @@ The server stores no personal data, uses no sign-in and no cookies. The privacy 
 - [ ] Final first pack approved by Cash (replace `status: "sample"`)
 - [ ] Square icon, at least 48×48 px (the KGL avatar works)
 - [ ] Video walkthrough URL (a 1–2 minute screen recording in ChatGPT developer mode)
-- [ ] Deployed HTTPS endpoint (e.g. https://inspire.keepgivelive.com/mcp)
+- [x] Deployed HTTPS endpoint: https://inspire.keepgivelive.com/mcp
 - [ ] Release notes: "First release: daily line, find lines, card."

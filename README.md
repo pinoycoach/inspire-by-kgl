@@ -24,7 +24,7 @@ npx @modelcontextprotocol/inspector   # choose Streamable HTTP, enter the URL
 
 1. Push this folder to a GitHub repo and import it in Netlify (no build step; the function lives in `netlify/functions/mcp.ts`, served at `/mcp`).
 2. Optional env var: `SHOP_URL`.
-3. Point a subdomain such as `inspire.keepgivelive.com` at the site.
+3. Live at `https://inspire.keepgivelive.com` (Netlify project `inspire-by-kgl`). MCP endpoint: `https://inspire.keepgivelive.com/mcp`.
 4. In ChatGPT, turn on developer mode and add the connector with `https://<site>/mcp` to test before review.
 
 ## The library
