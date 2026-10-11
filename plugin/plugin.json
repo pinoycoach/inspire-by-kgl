@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "inspire-by-kgl",
+  "version": "0.1.0",
+  "description": "A small library of lines, each with its source, set on a card.",
+  "author": {
+    "name": "JoinThePOD LLC",
+    "email": "yinde@keepgivelive.com",
+    "url": "https://keepgivelive.com"
+  },
+  "homepage": "https://inspire.keepgivelive.com",
+  "keywords": [
+    "quotes",
+    "inspiration",
+    "cards",
+    "gratitude",
+    "keep give live"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Inspire by KGL",
+        "shortDescription": "One verified line a day",
+        "longDescription": "Inspire is a small library of lines worth keeping. Each one carries its source, so you always know where it came from.\n\nAsk for today's line, find one about giving, rest or enough, and set it on a card in one of five quiet shades. Keep it, give it to someone, or make it real as a printed piece from the Keep. Give. Live. shop.\n\nEverything here is free. Nothing is invented: if a line isn't in the library, Inspire says so.",
+        "developerName": "JoinThePOD LLC",
+        "category": "Lifestyle",
+        "websiteURL": "https://inspire.keepgivelive.com",
+        "supportURL": "https://inspire.keepgivelive.com/support/",
+        "privacyPolicyURL": "https://inspire.keepgivelive.com/privacy/",
+        "termsOfServiceURL": "https://inspire.keepgivelive.com/terms/",
+        "defaultPrompt": [
+          "Give me today's line.",
+          "Find me a line about giving.",
+          "Put today's line on a card in Loess."
+        ],
+        "brandColor": "#6E3030",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      }
+    }
+  }
+}
