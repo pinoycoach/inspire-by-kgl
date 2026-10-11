@@ -50,7 +50,7 @@ Prompts where Inspire should NOT be called; ChatGPT answers on its own.
 
 ## Release notes (visible to users)
 
-First release. Ask for today's line, find a line about keeping, giving, living, enough, rest or gratitude, and set it on a card in one of five shades. Every line shows its source. Everything is free.
+First release. Ask for today's line, find a line about keeping, giving, living, enough, rest or gratitude, and set it on a card in one of five shades. Every line shows its source.
 
 ## Still needed before submitting
 
