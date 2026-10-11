@@ -30,7 +30,7 @@ npx @modelcontextprotocol/inspector   # choose Streamable HTTP, enter the URL
 ## The library
 
 `src/library.ts`. Every line has `source`, `translation`, `publicDomain`, `proofUrl`, `themes`, `status`.
-The current lines are a **sample** taken from Cash's own stated KGL lines. Replace them with the approved first pack before submitting. Nothing enters the library without passing the Jev gate and Cash's yes.
+The first pack is 8 of Cash's own lines, approved 11 Oct 2026. Nothing enters the library without passing the Jev gate and Cash's yes.
 
 ## Preview the card
 

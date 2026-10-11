@@ -49,7 +49,7 @@ The server stores no personal data, uses no sign-in and no cookies. The privacy 
 ## Still needed before submitting
 
 - [ ] OpenAI organization verified as JoinThePOD LLC (Platform dashboard → organization settings)
-- [ ] Final first pack approved by Cash (replace `status: "sample"`)
+- [x] First pack approved by Cash (8 own lines, 11 Oct 2026)
 - [ ] Square icon, at least 48×48 px (the KGL avatar works)
 - [ ] Video walkthrough URL (a 1–2 minute screen recording in ChatGPT developer mode)
 - [x] Deployed HTTPS endpoint: https://inspire.keepgivelive.com/mcp

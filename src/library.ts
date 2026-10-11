@@ -1,6 +1,6 @@
 // Inspire library — every line carries its provenance.
-// SAMPLE PACK: these are Cash's own KGL lines, gathered from his stated decisions.
-// Cash confirms or replaces each one before public launch (status: "sample").
+// FIRST PACK: Cash's own KGL lines, approved by Cash on 11 Oct 2026.
+// New lines need the fit test (The KGL Bible), the Jev gate and Cash's yes.
 
 export type Theme = "keep" | "give" | "live" | "enough" | "rest" | "gratitude";
 
@@ -24,7 +24,7 @@ export const LIBRARY: Line[] = [
     publicDomain: false,
     proofUrl: null,
     themes: ["keep", "give", "live"],
-    status: "sample",
+    status: "approved",
   },
   {
     id: "kgl-002",
@@ -34,7 +34,7 @@ export const LIBRARY: Line[] = [
     publicDomain: false,
     proofUrl: null,
     themes: ["enough", "keep"],
-    status: "sample",
+    status: "approved",
   },
   {
     id: "kgl-003",
@@ -44,7 +44,7 @@ export const LIBRARY: Line[] = [
     publicDomain: false,
     proofUrl: null,
     themes: ["keep"],
-    status: "sample",
+    status: "approved",
   },
   {
     id: "kgl-004",
@@ -54,7 +54,7 @@ export const LIBRARY: Line[] = [
     publicDomain: false,
     proofUrl: null,
     themes: ["give"],
-    status: "sample",
+    status: "approved",
   },
   {
     id: "kgl-005",
@@ -64,7 +64,7 @@ export const LIBRARY: Line[] = [
     publicDomain: false,
     proofUrl: null,
     themes: ["live"],
-    status: "sample",
+    status: "approved",
   },
   {
     id: "kgl-006",
@@ -74,7 +74,7 @@ export const LIBRARY: Line[] = [
     publicDomain: false,
     proofUrl: null,
     themes: ["give", "gratitude"],
-    status: "sample",
+    status: "approved",
   },
   {
     id: "kgl-007",
@@ -84,7 +84,7 @@ export const LIBRARY: Line[] = [
     publicDomain: false,
     proofUrl: null,
     themes: ["keep", "give", "live"],
-    status: "sample",
+    status: "approved",
   },
   {
     id: "kgl-008",
@@ -94,7 +94,7 @@ export const LIBRARY: Line[] = [
     publicDomain: false,
     proofUrl: null,
     themes: ["enough", "rest"],
-    status: "sample",
+    status: "approved",
   },
 ];
 
