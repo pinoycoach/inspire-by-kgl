@@ -6,7 +6,7 @@ Status: DRAFT. Cash approves every word below before it is submitted.
 
 - **Display name (≤30):** Inspire by KGL
 - **Subtitle (≤30):** One verified line a day
-- **Category:** Lifestyle
+- **Category:** Creativity
 - **Developer name:** JoinThePOD LLC
 - **Long description (draft):**
   Inspire is a small library of lines worth keeping. Each one carries its source, so you always know where it came from.
